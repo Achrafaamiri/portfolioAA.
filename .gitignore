@@ -1,0 +1,23 @@
+# File sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Claude Code
+.claude/
+
+# File temporanei
+*.log
+*.tmp
+*.bak
+
+# File di sviluppo non necessari
+index1.html
+og-image-preview.html
+og_image_matrix.html

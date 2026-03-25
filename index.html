@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Achraf Aamiri — Web Developer Freelance per PMI Italiane</title>
+  <meta name="description" content="Web developer freelance specializzato in siti web su misura, e-commerce e AI agent per PMI italiane. Design curato, codice pulito, risultati concreti." />
+  <link rel="canonical" href="https://achrafaamiri.dev/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Achraf Aamiri" />
+  <meta property="og:title" content="Achraf Aamiri — Web Developer Freelance per PMI Italiane" />
+  <meta property="og:description" content="Web developer freelance specializzato in siti web su misura, e-commerce e AI agent per PMI italiane. Design curato, codice pulito, risultati concreti." />
+  <meta property="og:url" content="https://achrafaamiri.dev/" />
+  <meta property="og:image" content="https://achrafaamiri.dev/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="it_IT" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Achraf Aamiri — Web Developer Freelance per PMI Italiane" />
+  <meta name="twitter:description" content="Web developer freelance specializzato in siti web su misura, e-commerce e AI agent per PMI italiane. Design curato, codice pulito, risultati concreti." />
+  <meta name="twitter:image" content="https://achrafaamiri.dev/og-image.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/home.css" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://achrafaamiri.dev/#person",
+        "name": "Achraf Aamiri",
+        "jobTitle": "Web Developer Freelance",
+        "url": "https://achrafaamiri.dev",
+        "sameAs": ["https://www.linkedin.com/in/achraf-aamiri-9578851a9/"],
+        "knowsLanguage": ["it", "en"]
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://achrafaamiri.dev/#business",
+        "name": "Achraf Aamiri — Web Developer",
+        "url": "https://achrafaamiri.dev",
+        "description": "Web developer freelance specializzato in siti web, e-commerce e AI agent per PMI italiane.",
+        "founder": { "@id": "https://achrafaamiri.dev/#person" },
+        "areaServed": "IT",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "telephone": "+393713200037",
+          "availableLanguage": "Italian"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav-on-dark">
+    <a href="index.html" class="nav-logo">AA<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="lavori.html" data-page="lavori.html">Lavori</a></li>
+      <li><a href="processo.html" data-page="processo.html">Processo</a></li>
+      <li><a href="chi-sono.html" data-page="chi-sono.html">Chi sono</a></li>
+      <li><a href="ai-agent.html" data-page="ai-agent.html">AI Agent</a></li>
+      <li><a href="https://wa.me/393713200037" target="_blank" class="nav-cta">Parliamo →</a></li>
+    </ul>
+    <button class="nav-hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="nav-mobile">
+    <a href="lavori.html" data-page="lavori.html">Lavori</a>
+    <a href="processo.html" data-page="processo.html">Processo</a>
+    <a href="chi-sono.html" data-page="chi-sono.html">Chi sono</a>
+    <a href="ai-agent.html" data-page="ai-agent.html">AI Agent</a>
+    <a href="contatti.html" data-page="contatti.html">Contatti</a>
+    <a href="https://wa.me/393713200037" target="_blank" style="color: var(--green);">Parliamo →</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <canvas id="matrix-canvas"></canvas>
+    <div class="hero-bg-text">DESIGN</div>
+    <div class="hero-inner">
+      <div class="hero-left">
+        <div class="hero-eyebrow">
+          <div class="hero-eyebrow-dot"></div>
+          <span>Disponibile per nuovi progetti</span>
+        </div>
+        <h1 class="hero-title">
+          Trasformo le<br>tue
+          <em>idee</em><br>in prodotti<br>
+          <em>digitali.</em>
+        </h1>
+      </div>
+      <div class="hero-ctas hero-right">
+        <a href="https://wa.me/393713200037?text=Ciao%20Achraf%2C%20ho%20visto%20il%20tuo%20portfolio%20e%20vorrei%20parlare%20di%20un%20progetto" target="_blank" class="btn-primary">
+          Inizia un progetto
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="lavori.html" class="btn-secondary">Vedi i lavori</a>
+      </div>
+      <div class="hero-bottom">
+        <div class="hero-stat">
+          <div class="hero-stat-num">10+</div>
+          <div class="hero-stat-label">Progetti completati</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">24h</div>
+          <div class="hero-stat-label">Risposta garantita</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-num">100%</div>
+          <div class="hero-stat-label">Clienti soddisfatti</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>React</span><span class="dot">·</span>
+      <span>Next.js</span><span class="dot">·</span>
+      <span>Tailwind CSS</span><span class="dot">·</span>
+      <span>WordPress</span><span class="dot">·</span>
+      <span>Figma</span><span class="dot">·</span>
+      <span>E-commerce</span><span class="dot">·</span>
+      <span>AI Agents</span><span class="dot">·</span>
+      <span>Mobile First</span><span class="dot">·</span>
+      <span>SEO</span><span class="dot">·</span>
+      <span>UX Design</span><span class="dot">·</span>
+      <!-- duplicated for seamless loop -->
+      <span>React</span><span class="dot">·</span>
+      <span>Next.js</span><span class="dot">·</span>
+      <span>Tailwind CSS</span><span class="dot">·</span>
+      <span>WordPress</span><span class="dot">·</span>
+      <span>Figma</span><span class="dot">·</span>
+      <span>E-commerce</span><span class="dot">·</span>
+      <span>AI Agents</span><span class="dot">·</span>
+      <span>Mobile First</span><span class="dot">·</span>
+      <span>SEO</span><span class="dot">·</span>
+      <span>UX Design</span><span class="dot">·</span>
+    </div>
+  </div>
+
+  <!-- SERVIZI -->
+  <section class="servizi">
+    <div class="servizi-header reveal">
+      <div>
+        <div class="section-label">Cosa faccio</div>
+        <h2 class="servizi-title">Servizi<br><em>su misura.</em></h2>
+      </div>
+      <p class="servizi-subtitle">
+        Ogni progetto è diverso. Scelgo gli strumenti giusti per il tuo obiettivo, non quelli che conosco meglio.
+      </p>
+    </div>
+
+    <div class="servizi-grid">
+      <!-- Siti web custom -->
+      <div class="servizio-card reveal">
+        <div class="servizio-number">01</div>
+        <div class="servizio-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="4" width="24" height="16" rx="2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 9h24" stroke-width="1.5" stroke-linecap="round"/>
+            <circle cx="5.5" cy="6.5" r="0.75" fill="currentColor"/>
+            <circle cx="8.5" cy="6.5" r="0.75" fill="currentColor"/>
+            <circle cx="11.5" cy="6.5" r="0.75" fill="currentColor"/>
+            <path d="M10 23h8M14 20v3" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M10 13.5l2.5-2.5-2.5-2.5M15 14h3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 class="servizio-title">Siti web custom</h3>
+        <p class="servizio-desc">Design unico costruito attorno al tuo brand. Nessun template, nessun compromesso — solo codice scritto per te.</p>
+        <ul class="servizio-list">
+          <li>Design in Figma incluso</li>
+          <li>React / HTML + CSS</li>
+          <li>Ottimizzazione SEO</li>
+          <li>Responsive su tutti i device</li>
+        </ul>
+      </div>
+
+      <!-- E-commerce -->
+      <div class="servizio-card reveal reveal-delay-1">
+        <div class="servizio-number">02</div>
+        <div class="servizio-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 4h2.5l3.2 13h10.6l2.7-8.5H8.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="12.5" cy="22" r="1.5" stroke-width="1.5"/>
+            <circle cx="19.5" cy="22" r="1.5" stroke-width="1.5"/>
+            <path d="M16 10v4M18 12h-4" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="servizio-title">E-commerce</h3>
+        <p class="servizio-desc">Shop online pensati per convertire. Dalla UX del carrello ai dettagli che fanno la differenza al momento del pagamento.</p>
+        <ul class="servizio-list">
+          <li>Shopify / WooCommerce</li>
+          <li>Checkout ottimizzato</li>
+          <li>Integrazione pagamenti</li>
+          <li>Dashboard gestione prodotti</li>
+        </ul>
+      </div>
+
+      <!-- Landing page -->
+      <div class="servizio-card reveal reveal-delay-2">
+        <div class="servizio-number">03</div>
+        <div class="servizio-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 3v4M14 21v4M3 14h4M21 14h4" stroke-width="1.5" stroke-linecap="round"/>
+            <circle cx="14" cy="14" r="9" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="5" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="1.5" fill="currentColor"/>
+            <path d="M19 9l3-3M19 9h-3M19 9v-3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 class="servizio-title">Landing page</h3>
+        <p class="servizio-desc">Pagine ad alta conversione per campagne marketing, lanci di prodotto e lead generation. Ogni elemento ha uno scopo.</p>
+        <ul class="servizio-list">
+          <li>Copy persuasivo</li>
+          <li>A/B test ready</li>
+          <li>Integrazione CRM / Email</li>
+          <li>Tracciamento analytics</li>
+        </ul>
+      </div>
+
+      <!-- AI Agents & App -->
+      <div class="servizio-card reveal reveal-delay-3">
+        <div class="servizio-number">04</div>
+        <div class="servizio-icon">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7" cy="14" r="2.5" stroke-width="1.5"/>
+            <circle cx="21" cy="14" r="2.5" stroke-width="1.5"/>
+            <circle cx="14" cy="7" r="2.5" stroke-width="1.5"/>
+            <circle cx="14" cy="21" r="2.5" stroke-width="1.5"/>
+            <circle cx="14" cy="14" r="3" stroke-width="1.5"/>
+            <path d="M9.5 14h2M16.5 14h2M14 9.5v2M14 16.5v2" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M9 11.5L11.5 9M16.5 9L19 11.5M19 16.5L16.5 19M11.5 19L9 16.5" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+          </svg>
+        </div>
+        <h3 class="servizio-title">AI Agents & App</h3>
+        <p class="servizio-desc">Automazioni intelligenti e applicazioni con AI integrata. Chatbot, assistant personalizzati e workflow automatizzati.</p>
+        <ul class="servizio-list">
+          <li>Chatbot personalizzati</li>
+          <li>Automazioni con AI</li>
+          <li>Integrazione API Claude / GPT</li>
+          <li>Workflow intelligenti</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- LAVORI PREVIEW -->
+  <section class="work">
+    <div class="work-header reveal">
+      <h2 class="work-title">Progetti<br><em>selezionati.</em></h2>
+      <div class="work-header-right">
+        <span class="work-count">02 lavori in evidenza</span>
+        <a href="lavori.html" class="btn-secondary" style="font-size: 0.78rem; padding: 0.55rem 1.2rem;">Vedi tutti →</a>
+      </div>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- PROJECT 1 — FEATURED -->
+      <div class="project-card reveal">
+        <a href="https://pointerandhound.vercel.app/" target="_blank" style="text-decoration:none;color:inherit;">
+          <div class="project-thumb">
+            <img
+              src="https://images.unsplash.com/photo-1601758124510-52d02ddb7cbd?w=1200&q=80&auto=format&fit=crop"
+              alt="Pointer & Hound — E-commerce animali"
+            />
+            <span class="project-thumb-badge wip">In sviluppo</span>
+          </div>
+          <div class="project-body">
+            <div class="project-info">
+              <div class="project-index">01</div>
+              <div class="project-name">Pointer & Hound</div>
+              <p class="project-desc">E-commerce per prodotti per animali. Hero section, categorie, product spotlight e card prodotti con animazioni hover raffinate. UI pensata per massimizzare la conversione.</p>
+            </div>
+            <div class="project-meta">
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Tailwind</span>
+                <span class="tag">Figma</span>
+              </div>
+              <span class="project-link">
+                Vedi progetto
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H4M10 2v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="project-card reveal reveal-delay-1">
+        <a href="https://residenze-toscane.vercel.app/" target="_blank" style="text-decoration:none;color:inherit;">
+          <div class="project-thumb">
+            <img
+              src="images/immobiliare.png"
+              alt="Residenze Toscane"
+              onerror="this.src='https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&q=80&auto=format&fit=crop'"
+            />
+          </div>
+          <div class="project-body">
+            <div class="project-info">
+              <div class="project-index">02</div>
+              <div class="project-name">Residenze Toscane</div>
+              <p class="project-desc">Demo agenzia immobiliare fiorentina. Listing immobili, ricerca con filtri e design toscano raffinato.</p>
+            </div>
+            <div class="project-meta">
+              <div class="project-tags">
+                <span class="tag">WordPress</span>
+                <span class="tag">Mobile First</span>
+              </div>
+              <span class="project-link">
+                Vedi progetto
+                <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H4M10 2v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!-- PLACEHOLDER "prossimo" -->
+      <div class="project-card reveal reveal-delay-2">
+        <a href="contatti.html" style="text-decoration:none;color:inherit;">
+          <div class="project-thumb" style="background: var(--ink); filter: none;">
+            <img
+              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80&auto=format&fit=crop"
+              alt="Prossimo progetto"
+              style="filter: saturate(0.2) brightness(0.5);"
+            />
+            <div class="project-next-overlay">
+              <div class="project-next-label">PROSSIMO</div>
+              <div class="project-next-sub">POTREBBE ESSERE IL TUO</div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-info">
+              <div class="project-index">03</div>
+              <div class="project-name">Il tuo progetto?</div>
+              <p class="project-desc">Hai un'idea o un sito da rifare? Parliamone. La prima chiamata è gratuita e senza impegno.</p>
+            </div>
+            <div class="project-meta">
+              <span class="project-link" style="color: var(--green); border-color: rgba(28,92,68,0.3);">
+                Parliamo →
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <div class="work-cta reveal">
+      <a href="lavori.html" class="btn-primary">
+        Vedi tutti i progetti
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- RECENSIONI -->
+  <section class="recensioni">
+    <div class="recensioni-header reveal">
+      <div class="section-label" style="justify-content: center;">Clienti</div>
+      <h2 class="recensioni-title">Cosa dicono<br>di <em>me.</em></h2>
+      <p class="recensioni-subtitle">Le persone con cui ho lavorato, con le loro parole.</p>
+    </div>
+
+    <div class="recensioni-grid">
+
+      <div class="recensione-card reveal">
+        <div class="recensione-stars">★★★★★</div>
+        <p class="recensione-text">
+          "Achraf ha trasformato il nostro sito datato in qualcosa di cui siamo davvero orgogliosi. Professionale, puntuale e con un occhio al dettaglio fuori dal comune."
+        </p>
+        <div class="recensione-author">
+          <div class="recensione-avatar">MR</div>
+          <div>
+            <div class="recensione-name">Marco Rossi</div>
+            <div class="recensione-role">CEO — Rossi & Partners</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="recensione-card reveal reveal-delay-1">
+        <div class="recensione-stars">★★★★★</div>
+        <p class="recensione-text">
+          "Finalmente un developer che capisce anche il business. Non si è limitato a eseguire — ha proposto soluzioni che non avevo considerato e il risultato finale ha superato le aspettative."
+        </p>
+        <div class="recensione-author">
+          <div class="recensione-avatar" style="background: var(--green-mid);">SF</div>
+          <div>
+            <div class="recensione-name">Sara Ferretti</div>
+            <div class="recensione-role">Founder — Studio Ferretti</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="recensione-card reveal reveal-delay-2">
+        <div class="recensione-stars">★★★★★</div>
+        <p class="recensione-text">
+          "Il nostro e-commerce ha visto un incremento del 40% nelle conversioni nel primo mese dal lancio. Il lavoro sulla UX e sulla velocità ha fatto la differenza."
+        </p>
+        <div class="recensione-author">
+          <div class="recensione-avatar" style="background: #2d4a8a;">LB</div>
+          <div>
+            <div class="recensione-name">Lorenzo Bianchi</div>
+            <div class="recensione-role">Direttore Marketing — OrganicShop</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BRAND / CLIENTI -->
+  <section class="brand">
+    <div class="brand-header">
+      <div class="brand-label">Brand con cui ho collaborato</div>
+    </div>
+    <div class="brand-grid">
+      <div class="brand-item">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect width="20" height="20" rx="4" fill="#1c5c44"/><path d="M5 10h10M10 5v10" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <span class="brand-logo">Verde<span>Lab</span></span>
+      </div>
+      <div class="brand-item">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" stroke="#0a0a0a" stroke-width="1.5"/><path d="M6 10l3 3 5-5" stroke="#0a0a0a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="brand-logo">Pointer<span>&</span>Hound</span>
+      </div>
+      <div class="brand-item">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><rect x="2" y="2" width="7" height="7" rx="2" fill="#c8b89a"/><rect x="11" y="2" width="7" height="7" rx="2" fill="#c8b89a"/><rect x="2" y="11" width="7" height="7" rx="2" fill="#c8b89a"/><rect x="11" y="11" width="7" height="7" rx="2" fill="#c8b89a"/></svg>
+        <span class="brand-logo">Residenze<span>Toscane</span></span>
+      </div>
+      <div class="brand-item">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2L18 7v6l-8 5-8-5V7z" stroke="#7a7570" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        <span class="brand-logo">Cube<span>Digital</span></span>
+      </div>
+      <div class="brand-item">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="4" fill="#2d7a5e"/><circle cx="10" cy="10" r="8" stroke="#2d7a5e" stroke-width="1.5"/></svg>
+        <span class="brand-logo">Orbit<span>Studio</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="cta-banner-eyebrow">Iniziamo</div>
+    <h2 class="cta-banner-title">
+      Hai un progetto<br>in <em>mente?</em>
+    </h2>
+    <p class="cta-banner-desc">La prima chiamata è gratuita e senza impegno.<br>Ti rispondo entro 24 ore.</p>
+    <div class="cta-banner-actions">
+      <a href="https://wa.me/393713200037?text=Ciao%20Achraf%2C%20ho%20visto%20il%20tuo%20portfolio%20e%20vorrei%20parlare%20di%20un%20progetto" target="_blank" class="btn-white">
+        Scrivimi su WhatsApp
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <a href="contatti.html" class="btn-ghost">Oppure usa il form →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">Achraf Aamiri<span>.</span></div>
+    <div class="footer-copy">© 2026 — Web Developer Freelance</div>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/achraf-aamiri-9578851a9/" target="_blank">LinkedIn</a>
+      <a href="https://wa.me/393713200037" target="_blank">WhatsApp</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/matrix.js"></script>
+</body>
+</html>
