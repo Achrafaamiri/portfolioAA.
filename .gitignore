@@ -17,6 +17,11 @@ desktop.ini
 *.tmp
 *.bak
 
+# Variabili d'ambiente (mai committare)
+.env
+.env.local
+.env.*.local
+
 # File di sviluppo non necessari
 index1.html
 og-image-preview.html
