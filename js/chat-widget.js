@@ -362,7 +362,7 @@ Comportati così:
         <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm0 3a3 3 0 110 6 3 3 0 010-6zm0 14.2a7.2 7.2 0 01-6-3.22c.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08a7.2 7.2 0 01-6 3.22z"/></svg>
       </div>
       <div class="cw-header-info">
-        <div class="cw-header-name">Assistente AI di Achraf</div>
+        <div class="cw-header-name">Morpheus</div>
         <div class="cw-header-status">
           <span class="cw-dot"></span>Online
         </div>
