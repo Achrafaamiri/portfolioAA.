@@ -355,6 +355,32 @@
   transform: scale(1.04);
 }
 
+.project-next-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project-next-label {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: white;
+  letter-spacing: -0.04em;
+}
+
+.project-next-sub {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.14em;
+}
+
 .lavoro-body {
   padding: 2rem 2.5rem;
 }

@@ -30,7 +30,6 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/pages.css" />
 
-  <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -48,10 +47,11 @@
   <nav>
     <a href="index.html" class="nav-logo">AA<span>.</span></a>
     <ul class="nav-links">
+      <li><a href="ai-agent.html" data-page="ai-agent.html">AI Agent</a></li>
       <li><a href="lavori.html" data-page="lavori.html">Lavori</a></li>
       <li><a href="processo.html" data-page="processo.html">Processo</a></li>
       <li><a href="chi-sono.html" data-page="chi-sono.html">Chi sono</a></li>
-      <li><a href="ai-agent.html" data-page="ai-agent.html">AI Agent</a></li>
+      <li><a href="contatti.html" data-page="contatti.html">Contatti</a></li>
       <li><a href="https://wa.me/393713200037" target="_blank" class="nav-cta">Parliamo →</a></li>
     </ul>
     <button class="nav-hamburger" aria-label="Menu">
@@ -59,7 +59,6 @@
     </button>
   </nav>
 
-  <!-- MOBILE MENU -->
   <div class="nav-mobile">
     <a href="lavori.html" data-page="lavori.html">Lavori</a>
     <a href="processo.html" data-page="processo.html">Processo</a>
@@ -83,45 +82,60 @@
       <button class="filter-btn active" data-filter="all">Tutti</button>
       <button class="filter-btn" data-filter="web">Siti web</button>
       <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
-      <button class="filter-btn" data-filter="landing">Landing page</button>
+      <button class="filter-btn" data-filter="wedding">Wedding</button>
     </div>
 
     <div class="lavori-grid">
 
       <!-- Pointer & Hound -->
       <div class="lavoro-card reveal" data-tags="ecommerce,web">
-        <a href="https://pointerandhound.vercel.app/" target="_blank" style="text-decoration:none;color:inherit;">
+        <a href="https://www.figma.com/proto/R3hS904gmLUPEdBL57PN9q/pets?node-id=2-3&starting-point-node-id=2%3A3&scaling=contain&t=xfZsdr3PSuyRTGoy-1" target="_blank" style="text-decoration:none;color:inherit;">
           <div class="lavoro-thumb">
-            <img
-              src="https://images.unsplash.com/photo-1601758124510-52d02ddb7cbd?w=900&q=80&auto=format&fit=crop"
-              alt="Pointer & Hound"
-            />
+            <img src="images/punter e houde.png" alt="Pointer & Hound — E-commerce prodotti animali" />
           </div>
           <div class="lavoro-body">
             <div class="lavoro-tags">
               <span class="tag">E-commerce</span>
               <span class="tag">React</span>
               <span class="tag">Tailwind</span>
+              <span class="tag">Figma</span>
             </div>
             <div class="lavoro-name">Pointer & Hound</div>
             <p class="lavoro-desc">E-commerce per prodotti per animali. Hero section, categorie, product spotlight e card prodotti con animazioni hover raffinate. UI pensata per massimizzare la conversione.</p>
             <span class="lavoro-link">
-              Vedi progetto
+              Vedi prototipo Figma
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H4M10 2v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </span>
           </div>
         </a>
       </div>
 
-      <!-- Residenze Toscane -->
+      <!-- Bovo Osvaldo -->
       <div class="lavoro-card reveal reveal-delay-1" data-tags="web">
+        <div style="text-decoration:none;color:inherit;">
+          <div class="lavoro-thumb">
+            <img src="images/bovo.png" alt="Bovo Osvaldo — Elettrodomestici" />
+          </div>
+          <div class="lavoro-body">
+            <div class="lavoro-tags">
+              <span class="tag">Sito web</span>
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="lavoro-name">Bovo Osvaldo</div>
+            <p class="lavoro-desc">Sito vetrina per negozio di elettrodomestici. Design pulito e moderno, catalogo prodotti e sezione contatti ottimizzata per le conversioni locali.</p>
+            <span class="lavoro-link" style="color: var(--muted); border-color: transparent; cursor: default;">
+              Progetto privato
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Residenze Toscane -->
+      <div class="lavoro-card reveal" data-tags="web">
         <a href="https://residenze-toscane.vercel.app/" target="_blank" style="text-decoration:none;color:inherit;">
           <div class="lavoro-thumb">
-            <img
-              src="images/immobiliare.png"
-              alt="Residenze Toscane"
-              onerror="this.src='https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=900&q=80&auto=format&fit=crop'"
-            />
+            <img src="images/immobiliare.png" alt="Residenze Toscane — Agenzia immobiliare" onerror="this.src='https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=900&q=80&auto=format&fit=crop'" />
           </div>
           <div class="lavoro-body">
             <div class="lavoro-tags">
@@ -130,7 +144,7 @@
               <span class="tag">Mobile First</span>
             </div>
             <div class="lavoro-name">Residenze Toscane</div>
-            <p class="lavoro-desc">Demo agenzia immobiliare fiorentina. Listing immobili con filtri, mappa interattiva e design toscano raffinato. Ottimizzato per ricerche locali.</p>
+            <p class="lavoro-desc">Agenzia immobiliare fiorentina. Listing immobili con filtri, mappa interattiva e design toscano raffinato. Ottimizzato per ricerche locali.</p>
             <span class="lavoro-link">
               Vedi progetto
               <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H4M10 2v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -139,54 +153,116 @@
         </a>
       </div>
 
-      <!-- PLACEHOLDER 3 -->
-      <div class="lavoro-card reveal" data-tags="landing">
-        <div style="text-decoration:none;color:inherit;">
-          <div class="lavoro-thumb">
-            <img
-              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900&q=80&auto=format&fit=crop"
-              alt="Landing page performance"
-            />
-          </div>
-          <div class="lavoro-body">
-            <div class="lavoro-tags">
-              <span class="tag">Landing page</span>
-              <span class="tag">React</span>
-            </div>
-            <div class="lavoro-name">ConvertX — Landing page</div>
-            <p class="lavoro-desc">Landing page ad alta conversione per campagna Google Ads. Design orientato all'azione, form ottimizzato e A/B test incluso. +65% conversion rate vs. versione precedente.</p>
-            <span class="lavoro-link" style="color: var(--muted); border-color: transparent; cursor: default;">
-              In archivio
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <!-- PLACEHOLDER 4 -->
+      <!-- Studio Maniardi -->
       <div class="lavoro-card reveal reveal-delay-1" data-tags="web">
         <div style="text-decoration:none;color:inherit;">
           <div class="lavoro-thumb">
-            <img
-              src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=900&q=80&auto=format&fit=crop"
-              alt="Sito ristorante"
-            />
+            <img src="images/studio.png" alt="Studio Maniardi — Consulente del lavoro" />
           </div>
           <div class="lavoro-body">
             <div class="lavoro-tags">
               <span class="tag">Sito web</span>
-              <span class="tag">WordPress</span>
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript</span>
             </div>
-            <div class="lavoro-name">Osteria del Ponte</div>
-            <p class="lavoro-desc">Sito per ristorante con sistema di prenotazioni online, menu digitale e galleria fotografica. Integrato con Google My Business per le recensioni.</p>
+            <div class="lavoro-name">Studio Maniardi</div>
+            <p class="lavoro-desc">Sito professionale per studio di consulenza del lavoro. Design istituzionale e moderno, sezione servizi, team e form di contatto diretto.</p>
             <span class="lavoro-link" style="color: var(--muted); border-color: transparent; cursor: default;">
-              In archivio
+              Progetto privato
             </span>
           </div>
         </div>
       </div>
 
-      <!-- Call to action card -->
-      <div class="lavoro-card reveal" data-tags="all" style="grid-column: span 2;">
+      <!-- Manca Wedding -->
+      <div class="lavoro-card reveal" data-tags="wedding,web">
+        <div style="text-decoration:none;color:inherit;">
+          <div class="lavoro-thumb">
+            <img src="images/manca widding.png" alt="Manca Wedding — Wedding planner" />
+          </div>
+          <div class="lavoro-body">
+            <div class="lavoro-tags">
+              <span class="tag">Wedding</span>
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="lavoro-name">Manca Wedding</div>
+            <p class="lavoro-desc">Sito elegante per wedding planner. Gallery fotografica, sezione servizi e pacchetti, form di richiesta preventivo. Design romantico e raffinato.</p>
+            <span class="lavoro-link" style="color: var(--muted); border-color: transparent; cursor: default;">
+              Progetto privato
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stephanie Blanche -->
+      <div class="lavoro-card reveal reveal-delay-1" data-tags="wedding,web">
+        <div style="text-decoration:none;color:inherit;">
+          <div class="lavoro-thumb">
+            <img src="images/stefawidding.png" alt="Stephanie Blanche — Wedding planner" />
+          </div>
+          <div class="lavoro-body">
+            <div class="lavoro-tags">
+              <span class="tag">Wedding</span>
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="lavoro-name">Stephanie Blanche</div>
+            <p class="lavoro-desc">Portfolio per wedding planner di lusso. Galleria matrimoni, storytelling visivo e design premium per attrarre clienti alto spendenti.</p>
+            <span class="lavoro-link" style="color: var(--muted); border-color: transparent; cursor: default;">
+              Progetto privato
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tecnoidraulica -->
+      <div class="lavoro-card reveal" data-tags="web">
+        <div style="text-decoration:none;color:inherit;">
+          <div class="lavoro-thumb">
+            <img src="images/tecnoidraulica.png" alt="Tecnoidraulica — Sistemi idraulici" />
+          </div>
+          <div class="lavoro-body">
+            <div class="lavoro-tags">
+              <span class="tag">Sito web</span>
+              <span class="tag">HTML/CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="lavoro-name">Tecnoidraulica</div>
+            <p class="lavoro-desc">Sito aziendale per impresa specializzata in sistemi idraulici. Presentazione servizi, progetti realizzati e contatti per preventivi rapidi.</p>
+            <span class="lavoro-link" style="color: var(--muted); border-color: transparent; cursor: default;">
+              Progetto privato
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA preview -->
+      <div class="lavoro-card reveal" data-tags="all" style="order:9998;">
+        <a href="contatti.html" style="text-decoration:none;color:inherit;">
+          <div class="lavoro-thumb" style="background:var(--ink);filter:none;">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80&auto=format&fit=crop" alt="Prossimo progetto" style="filter:saturate(0.2) brightness(0.5);" />
+            <div class="project-next-overlay">
+              <div class="project-next-label">PROSSIMO</div>
+              <div class="project-next-sub">POTREBBE ESSERE IL TUO</div>
+            </div>
+          </div>
+          <div class="lavoro-body">
+            <div class="lavoro-tags">
+              <span class="tag">Contatti</span>
+            </div>
+            <div class="lavoro-name">Il tuo progetto?</div>
+            <p class="lavoro-desc">Hai un'idea o un sito da rifare? Parliamone. La prima chiamata è gratuita e senza impegno.</p>
+            <span class="lavoro-link" style="color:var(--green);border-color:rgba(28,92,68,0.3);">
+              Parliamo →
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H4M10 2v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+        </a>
+      </div>
+
+      <!-- CTA -->
+      <div class="lavoro-card reveal" data-tags="all" style="grid-column: span 2; order:9999;">
         <a href="contatti.html" style="text-decoration:none;color:inherit;display:block;padding:4rem 3rem;background:var(--warm);text-align:center;">
           <div style="font-family:'Syne',sans-serif;font-size:0.72rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:var(--green);margin-bottom:1rem;">Prossimo</div>
           <div style="font-family:'Syne',sans-serif;font-size:clamp(24px,3vw,42px);font-weight:800;letter-spacing:-0.03em;color:var(--ink);margin-bottom:0.8rem;">Il tuo progetto qui?</div>
