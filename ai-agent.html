@@ -163,8 +163,6 @@
     </div>
 
     <div class="ai-usecases-grid">
-
-      <!-- Assistente clienti -->
       <div class="ai-usecase-card reveal">
         <div class="ai-usecase-icon">
           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -176,7 +174,6 @@
         <p class="ai-usecase-desc">Risponde alle FAQ, gestisce reclami, fornisce info su prodotti e prezzi. I clienti ricevono risposta immediata, anche di notte o nel weekend.</p>
       </div>
 
-      <!-- Lead qualification -->
       <div class="ai-usecase-card reveal reveal-delay-1">
         <div class="ai-usecase-icon">
           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -190,7 +187,6 @@
         <p class="ai-usecase-desc">Raccoglie nome, email, budget e necessità prima che il prospect parli con te. Arrivi alla chiamata già con i dati chiave in mano.</p>
       </div>
 
-      <!-- Contenuti automatizzati -->
       <div class="ai-usecase-card reveal">
         <div class="ai-usecase-icon">
           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -202,7 +198,6 @@
         <p class="ai-usecase-desc">Genera bozze di newsletter, post social e descrizioni prodotto partendo dai tuoi dati. Tu revisioni e approvi — il grosso lo fa l'AI.</p>
       </div>
 
-      <!-- Report e analisi -->
       <div class="ai-usecase-card reveal reveal-delay-1">
         <div class="ai-usecase-icon">
           <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -213,7 +208,6 @@
         <div class="ai-usecase-title">Report & analisi dati</div>
         <p class="ai-usecase-desc">Connette i tuoi sistemi (CRM, e-commerce, Google Sheets) e produce report sintetici in automatico ogni settimana. Zero copia-incolla.</p>
       </div>
-
     </div>
   </section>
 
@@ -265,6 +259,7 @@
     <div class="ai-stack-pills reveal">
       <span class="ai-stack-pill">Claude API</span>
       <span class="ai-stack-pill">OpenAI API</span>
+      <span class="ai-stack-pill">ElevenLabs</span>
       <span class="ai-stack-pill">n8n</span>
       <span class="ai-stack-pill">Python</span>
       <span class="ai-stack-pill">Webhook</span>
@@ -359,7 +354,10 @@
   </footer>
 
   <script src="js/main.js"></script>
-  <link rel="stylesheet" href="css/chat-widget.css">
-  <script src="js/chat-widget.js"></script>
+
+  <!-- ElevenLabs Morpheus Voice Agent -->
+  <elevenlabs-convai agent-id="agent_0801kmp35zpmejpvtpwnsz9fjymh"></elevenlabs-convai>
+  <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+
 </body>
 </html>

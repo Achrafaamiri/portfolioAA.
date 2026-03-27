@@ -118,7 +118,7 @@
         <span style="font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;color:var(--green);">Tutto il resto.</span>
       </h2>
     </div>
-    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;" class="reveal">
+    <div class="incluso-grid reveal" style="display:grid;grid-template-columns:1fr;gap:1.5rem;">
       <div style="background:var(--paper);border:1px solid var(--border);border-radius:16px;padding:2rem;">
         <div style="font-size:1.5rem;margin-bottom:1rem;">⚡</div>
         <div style="font-family:'Syne',sans-serif;font-weight:800;font-size:1rem;color:var(--ink);margin-bottom:0.5rem;letter-spacing:-0.02em;">Performance</div>
@@ -220,7 +220,10 @@
   </footer>
 
   <script src="js/main.js"></script>
-  <link rel="stylesheet" href="css/chat-widget.css">
-  <script src="js/chat-widget.js"></script>
+
+  <!-- ElevenLabs Morpheus Voice Agent -->
+  <elevenlabs-convai agent-id="agent_0801kmp35zpmejpvtpwnsz9fjymh"></elevenlabs-convai>
+  <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+
 </body>
 </html>

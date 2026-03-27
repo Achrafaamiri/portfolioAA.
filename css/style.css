@@ -456,4 +456,15 @@ footer {
     flex-direction: column;
     text-align: center;
   }
+
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .page-hero-title {
+    font-size: clamp(26px, 8vw, 38px);
+    overflow-wrap: break-word;
+  }
 }

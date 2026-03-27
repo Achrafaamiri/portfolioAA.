@@ -869,6 +869,21 @@
   .lavori-filters {
     gap: 0.4rem;
   }
+
+  .about-content { padding: 2rem 1.5rem; }
+  .about-heading { font-size: 1.8rem; }
+  .stack-groups { gap: 2rem; }
+  .step-number { font-size: 2rem; }
+  .processo-step { padding: 1.5rem; }
+  .ai-usecases-grid { grid-template-columns: 1fr; }
+}
+
+@media (min-width: 600px) {
+  .cta-grid { grid-template-columns: 1fr 1fr; gap: 4rem; }
+}
+
+@media (min-width: 700px) {
+  .incluso-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
 /* ============================================================
