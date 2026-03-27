@@ -1,0 +1,10 @@
+/* ============================================================
+   VOICE WIDGET — ElevenLabs Morpheus
+   Le variabili --el-* vengono iniettate inline via JS
+   perché il widget usa Shadow DOM e non accetta CSS esterno
+   ============================================================ */
+
+/* Nasconde il branding "Powered by ElevenAgents" */
+elevenlabs-convai {
+  --el-brand-display: none;
+}
