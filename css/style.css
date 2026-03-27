@@ -4,7 +4,9 @@
    ============================================================ */
 
 /* ---- RESET & BOX SIZING ---- */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -56,11 +58,22 @@ nav.scrolled {
 }
 
 /* Nav su sfondo scuro (hero dark) */
-nav.nav-on-dark:not(.scrolled) .nav-logo            { color: #fff; }
-nav.nav-on-dark:not(.scrolled) .nav-links a         { color: rgba(255,255,255,0.55); }
+nav.nav-on-dark:not(.scrolled) .nav-logo {
+  color: #fff;
+}
+
+nav.nav-on-dark:not(.scrolled) .nav-links a {
+  color: rgba(255, 255, 255, 0.55);
+}
+
 nav.nav-on-dark:not(.scrolled) .nav-links a:hover,
-nav.nav-on-dark:not(.scrolled) .nav-links a.active  { color: #fff; }
-nav.nav-on-dark:not(.scrolled) .nav-hamburger span  { background: #fff; }
+nav.nav-on-dark:not(.scrolled) .nav-links a.active {
+  color: #fff;
+}
+
+nav.nav-on-dark:not(.scrolled) .nav-hamburger span {
+  background: #fff;
+}
 
 .nav-logo {
   font-family: 'Syne', sans-serif;
@@ -335,6 +348,7 @@ footer {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -342,13 +356,25 @@ footer {
 }
 
 @keyframes marquee {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 @keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.3; }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
 }
 
 .reveal {
@@ -362,9 +388,17 @@ footer {
   transform: translateY(0);
 }
 
-.reveal-delay-1 { transition-delay: 0.1s; }
-.reveal-delay-2 { transition-delay: 0.2s; }
-.reveal-delay-3 { transition-delay: 0.3s; }
+.reveal-delay-1 {
+  transition-delay: 0.1s;
+}
+
+.reveal-delay-2 {
+  transition-delay: 0.2s;
+}
+
+.reveal-delay-3 {
+  transition-delay: 0.3s;
+}
 
 /* ---- PAGE HERO (inner pages) ---- */
 .page-hero {
@@ -464,7 +498,7 @@ footer {
   }
 
   .page-hero-title {
-    font-size: clamp(26px, 8vw, 38px);
+    font-size: clamp(35px, 8vw, 40px);
     overflow-wrap: break-word;
   }
 }
