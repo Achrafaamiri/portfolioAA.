@@ -28,6 +28,14 @@ document.addEventListener('DOMContentLoaded', () => {
           success.style.display = 'block';
         }
         btn.textContent = '✓ Inviato!';
+        // Google Ads — conversione "Richiesta preventivo"
+        if (typeof gtag === 'function') {
+          gtag('event', 'conversion', {
+            'send_to': 'AW-18041760624/itZGCIfU1o8cEPDW_ZpD',
+            'value': 1.0,
+            'currency': 'EUR'
+          });
+        }
       } else {
         btn.textContent = 'Riprova';
         btn.disabled = false;

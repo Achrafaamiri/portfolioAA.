@@ -1,5 +1,6 @@
 (function() {
   const MEASUREMENT_ID = 'G-0N05TCEE4F';
+  const ADS_ID = 'AW-18041760624';
 
   // Inizializza dataLayer
   window.dataLayer = window.dataLayer || [];
@@ -22,6 +23,7 @@
 
   gtag('js', new Date());
   gtag('config', MEASUREMENT_ID);
+  gtag('config', ADS_ID);
 
   // Controlla lo stato del consenso salvato
   document.addEventListener('DOMContentLoaded', () => {
