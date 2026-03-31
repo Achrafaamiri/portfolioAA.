@@ -18,7 +18,7 @@
   // Caricamento asincrono dello script di GTM (rispetta il consenso impostato)
   const script = document.createElement('script');
   script.async = true;
-  script.src = `https://www.googletagmanager.com/gtag/js?id=${MEASUREMENT_ID}`;
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${ADS_ID}`;
   document.head.appendChild(script);
 
   gtag('js', new Date());
