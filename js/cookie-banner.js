@@ -1,29 +1,6 @@
 (function() {
-  const MEASUREMENT_ID = 'G-0N05TCEE4F';
-  const ADS_ID = 'AW-18041760624';
-
-  // Inizializza dataLayer
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  window.gtag = gtag;
-
-  // Imposta il consenso di default a "denied"
-  gtag('consent', 'default', {
-    'ad_storage': 'denied',
-    'ad_user_data': 'denied',
-    'ad_personalization': 'denied',
-    'analytics_storage': 'denied'
-  });
-
-  // Caricamento asincrono dello script di GTM (rispetta il consenso impostato)
-  const script = document.createElement('script');
-  script.async = true;
-  script.src = `https://www.googletagmanager.com/gtag/js?id=${ADS_ID}`;
-  document.head.appendChild(script);
-
-  gtag('js', new Date());
-  gtag('config', MEASUREMENT_ID);
-  gtag('config', ADS_ID);
+  // gtag è già inizializzato nell'HTML con consenso default 'denied'
+  // Questo file gestisce solo il banner e l'aggiornamento del consenso
 
   // Controlla lo stato del consenso salvato
   document.addEventListener('DOMContentLoaded', () => {
